@@ -1,0 +1,5 @@
+${project.name} - ${project.description}
+Copyright (c) ${project.inceptionYear} ${project.organization.name}. All Rights Reserved.
+
+This software including all the files whether in source code form or binary form is confidential and proprietary information of ${project.organization.name}.
+The software shall be used only in accordance with the terms of the license agreement between you and ${project.organization.name}.

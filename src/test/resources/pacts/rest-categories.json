@@ -1,0 +1,155 @@
+{
+  "consumer": {
+    "name": "rest-categories"
+  },
+  "interactions": [
+    {
+      "comments": {
+        "testname": "helloCategoriesSuccess()",
+        "text": [
+
+        ]
+      },
+      "description": "A hello request",
+      "key": "2ec6e2e8",
+      "pending": false,
+      "request": {
+        "headers": {
+          "Accept": [
+            "text/plain"
+          ]
+        },
+        "method": "GET",
+        "path": "/api/categories/hello"
+      },
+      "response": {
+        "body": {
+          "content": "Hello categories!",
+          "contentType": "text/plain",
+          "contentTypeHint": "DEFAULT",
+          "encoded": false
+        },
+        "headers": {
+          "Content-Type": [
+            "text/plain"
+          ]
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "regex",
+                  "regex": ".+"
+                }
+              ]
+            }
+          }
+        },
+        "status": 200
+      },
+      "transport": "https",
+      "type": "Synchronous/HTTP"
+    },
+    {
+      "comments": {
+        "testname": "getCategory()",
+        "text": [
+
+        ]
+      },
+      "description": "A request for a given category",
+      "key": "df5e15cd",
+      "pending": false,
+      "request": {
+        "headers": {
+          "Accept": [
+            "application/json"
+          ]
+        },
+        "method": "GET",
+        "path": "/api/categories/560281a2-75ba-49cf-b2ee-3a7c4c6cd916"
+      },
+      "response": {
+        "body": {
+          "content": {
+            "name": "Vehicles",
+            "description": "Vehicles"
+          },
+          "contentType": "application/json",
+          "encoded": false
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ]
+        },
+        "matchingRules": {
+          "body": {
+            "$.name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          }
+        },
+        "status": 200
+      },
+      "transport": "https",
+      "type": "Synchronous/HTTP"
+    },
+    {
+      "comments": {
+        "testname": "findRandomCategoryNotFound()",
+        "text": [
+
+        ]
+      },
+      "description": "A request for a random category",
+      "key": "ad777651",
+      "pending": false,
+      "providerStates": [
+        {
+          "name": "No random category found"
+        }
+      ],
+      "request": {
+        "headers": {
+          "Accept": [
+            "application/json"
+          ]
+        },
+        "method": "GET",
+        "path": "/api/categories/random"
+      },
+      "response": {
+        "status": 404
+      },
+      "transport": "https",
+      "type": "Synchronous/HTTP"
+    }
+  ],
+  "metadata": {
+    "pact-jvm": {
+      "version": "4.6.7"
+    },
+    "pactSpecification": {
+      "version": "4.0"
+    }
+  },
+  "provider": {
+    "name": "rest-categories"
+  }
+}

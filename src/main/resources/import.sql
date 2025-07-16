@@ -1,0 +1,16 @@
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('560281a2-75ba-49cf-b2ee-3a7c4c6cd916','Vehicles','Vehicles');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('5d82d8d1-5979-408c-a12c-f8641b46241a','Property','Property');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('8fae494b-fa08-402c-9629-8792176fff52','Mobile Phone & Tablets','Mobile Phone & Tablets');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('e04782de-e668-4786-a066-cd0595de6d7a','Electronics','Electronics');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('8bd2b183-e84c-4ff1-87ee-77f38d6286a4','Home, Furniture & Appliance','Home, Furniture & Appliance');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('39cff5aa-2d5e-45e1-a738-c8e941f6e43d','Health & Beauty','Health & Beauty');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('aacb3112-dc1e-445a-8c75-e98a63a21d2b','Fashion','Fashion');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('4f918995-24f0-4873-97bb-e9493c37fbae','Sports, Arts & Outdoors','Sports, Arts & Outdoors');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('03689a5d-fc56-48d5-8f62-6140489d70f4','Seeking Work CVs','Seeking Work CVs');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('b01f25d3-0a8c-4846-9e23-3ce915b32a67','Services','Services');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('9f4a345f-8117-46a7-a0e1-b526994c72af','Jobs','Jobs');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('299e6035-5c5e-4fd6-9aaf-0e3405f79636','Babies & Kids','Babies & Kids');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('26119bc7-9af9-4221-a316-d7eb39528b08','Animal & Pets','Animal & Pets');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('bbb9e0e7-79dd-47d6-b1f9-5269a8b4723c','Agriculture & Food','Agriculture & Food');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('5c4c54e6-badf-4dc8-b33c-0c11f5c21c4b','Commercial Equipment & Tools','Commercial Equipment & Tools');
+INSERT INTO category(ID, NAME, DESCRIPTION) VALUES ('56c8fad6-68aa-427f-9d76-3041a019d33e','General','General');
