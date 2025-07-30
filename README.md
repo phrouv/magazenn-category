@@ -76,11 +76,11 @@ The application also contains a simple UI, showing the list of Categories curren
 
 **NOTE:** Running the application outside of Quarkus dev mode requires standing up a PostgreSQL instance and binding it to the app. By default, the application is configured with the following:
 
-| Description       | Environment Variable              | Java Property                     | Value                                         |
-|-------------------|-----------------------------------|-----------------------------------|-----------------------------------------------|
+| Description       | Environment Variable              | Java Property                     | Value                                             |
+|-------------------|-----------------------------------|-----------------------------------|---------------------------------------------------|
 | Database URL      | `QUARKUS_DATASOURCE_REACTIVE_URL` | `quarkus.datasource.reactive.url` | `postgresql://localhost:5432/categories_database` |
-| Database username | `QUARKUS_DATASOURCE_USERNAME`     | `quarkus.datasource.username`     | `superman`                                    |
-| Database password | `QUARKUS_DATASOURCE_PASSWORD`     | `quarkus.datasource.password`     | `superman`                                    |
+| Database username | `QUARKUS_DATASOURCE_USERNAME`     | `quarkus.datasource.username`     | `magazenn`                                        |
+| Database password | `QUARKUS_DATASOURCE_PASSWORD`     | `quarkus.datasource.password`     | `arpad5`                                          |
 
 ## Running Locally via Docker Compose
 Pre-built images for this application can be found at [`quay.io/quarkus-super-categories/rest-categories`](https://quay.io/repository/quarkus-super-categories/rest-categories?tab=tags). 

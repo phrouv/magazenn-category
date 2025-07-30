@@ -5,8 +5,8 @@
     ports:
       - "5432"
     environment:
-      POSTGRES_USER: superman
-      POSTGRES_PASSWORD: superman
+      POSTGRES_USER: magazenn
+      POSTGRES_PASSWORD: arpad5
       POSTGRES_DB: categories_database
     volumes:
       - ../../../rest-categories/deploy/db-init/initialize-tables.sql:/docker-entrypoint-initdb.d/1-init-tables.sql
